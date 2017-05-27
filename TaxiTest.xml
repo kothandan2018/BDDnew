@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="testcaseRunner">
+  <classes>
+      <class name="testcaseRunner.Runner"/>
+    </classes>
+  </test>
+   
+  <test name="TestCAse"> 
+    <classes>
+      <class name="testCases.HomePageTest"/>
+    </classes>
+  </test>
+    
+  <test name="PageObjects">
+    <classes>
+      <class name="pageObjects.HomePageObject"/>
+    </classes>
+  </test>
+    
+  <test name="Initializer">
+    <classes>
+      <class name="initializer.Initializer"/>
+    </classes>
+  </test>
+    
+  <test name="DriverFunctions">
+    <classes>
+      <class name="initializer.DriverFunctions"/>
+    </classes>
+  </test>
+    
+   <test name="ScreenshotGenerator">
+    <classes>
+      <class name="reportGenerator.ScreenshotGenerator"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -87,7 +87,7 @@ formatter.examples({
     {
       "cells": [
         "firefox",
-        "http://www.ntltaxi.com",
+        "URL",
         "HANSIKA",
         "3334442233",
         "ADYAR",
@@ -100,7 +100,7 @@ formatter.examples({
     {
       "cells": [
         "firefox",
-        "http://www.ntltaxi.com",
+        "URL",
         "RAMESH",
         "2234442222",
         "ADAMBAKKAM",
@@ -113,7 +113,7 @@ formatter.examples({
     {
       "cells": [
         "firefox",
-        "http://www.ntltaxi.com",
+        "URL",
         "VINOTHc",
         "4434442244",
         "ADYAR",
@@ -150,7 +150,7 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "Load the url as http://www.ntltaxi.com",
+  "name": "Load the url as URL",
   "matchedColumns": [
     1
   ],
@@ -216,20 +216,20 @@ formatter.match({
   "location": "HomePageTest.openbrowser(String)"
 });
 formatter.result({
-  "duration": 10513248893,
+  "duration": 10108133561,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "http://www.ntltaxi.com",
+      "val": "URL",
       "offset": 16
     }
   ],
   "location": "HomePageTest.loadurl(String)"
 });
 formatter.result({
-  "duration": 4508659834,
+  "duration": 5678638609,
   "status": "passed"
 });
 formatter.match({
@@ -242,7 +242,7 @@ formatter.match({
   "location": "HomePageTest.enterusername(String)"
 });
 formatter.result({
-  "duration": 462375334,
+  "duration": 372626149,
   "status": "passed"
 });
 formatter.match({
@@ -255,7 +255,7 @@ formatter.match({
   "location": "HomePageTest.entermobileno(String)"
 });
 formatter.result({
-  "duration": 861913300,
+  "duration": 864683381,
   "status": "passed"
 });
 formatter.match({
@@ -268,7 +268,7 @@ formatter.match({
   "location": "HomePageTest.enterpickup(String)"
 });
 formatter.result({
-  "duration": 192255193,
+  "duration": 244345985,
   "status": "passed"
 });
 formatter.match({
@@ -281,7 +281,7 @@ formatter.match({
   "location": "HomePageTest.enterdrop(String)"
 });
 formatter.result({
-  "duration": 257395887,
+  "duration": 286177164,
   "status": "passed"
 });
 formatter.match({
@@ -294,21 +294,27 @@ formatter.match({
   "location": "HomePageTest.selectcar(String)"
 });
 formatter.result({
-  "duration": 426706761,
+  "duration": 526930151,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageTest.clickbooklater()"
 });
 formatter.result({
-  "duration": 199461336,
+  "duration": 248042104,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageTest.clickbook()"
 });
 formatter.result({
-  "duration": 172765619,
+  "duration": 824943,
+  "error_message": "java.lang.ArithmeticException: / by zero\r\n\tat testCases.HomePageTest.clickbook(HomePageTest.java:53)\r\n\tat ✽.But Don\u0027t click book button(Home.feature:12)\r\n",
+  "status": "failed"
+});
+formatter.embedding("image/jpeg", "embedded0.jpg");
+formatter.after({
+  "duration": 1514627351,
   "status": "passed"
 });
 formatter.scenario({
@@ -335,7 +341,7 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "Load the url as http://www.ntltaxi.com",
+  "name": "Load the url as URL",
   "matchedColumns": [
     1
   ],
@@ -401,20 +407,20 @@ formatter.match({
   "location": "HomePageTest.openbrowser(String)"
 });
 formatter.result({
-  "duration": 38926365,
+  "duration": 22380010,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "http://www.ntltaxi.com",
+      "val": "URL",
       "offset": 16
     }
   ],
   "location": "HomePageTest.loadurl(String)"
 });
 formatter.result({
-  "duration": 1344068018,
+  "duration": 818013969,
   "status": "passed"
 });
 formatter.match({
@@ -427,7 +433,7 @@ formatter.match({
   "location": "HomePageTest.enterusername(String)"
 });
 formatter.result({
-  "duration": 183800865,
+  "duration": 169264896,
   "status": "passed"
 });
 formatter.match({
@@ -440,7 +446,7 @@ formatter.match({
   "location": "HomePageTest.entermobileno(String)"
 });
 formatter.result({
-  "duration": 293221827,
+  "duration": 179638755,
   "status": "passed"
 });
 formatter.match({
@@ -453,7 +459,7 @@ formatter.match({
   "location": "HomePageTest.enterpickup(String)"
 });
 formatter.result({
-  "duration": 228861615,
+  "duration": 198259604,
   "status": "passed"
 });
 formatter.match({
@@ -466,7 +472,7 @@ formatter.match({
   "location": "HomePageTest.enterdrop(String)"
 });
 formatter.result({
-  "duration": 288778406,
+  "duration": 233921301,
   "status": "passed"
 });
 formatter.match({
@@ -479,21 +485,27 @@ formatter.match({
   "location": "HomePageTest.selectcar(String)"
 });
 formatter.result({
-  "duration": 357377267,
+  "duration": 383047902,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageTest.clickbooklater()"
 });
 formatter.result({
-  "duration": 165412372,
+  "duration": 168677467,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageTest.clickbook()"
 });
 formatter.result({
-  "duration": 190017354,
+  "duration": 392923,
+  "error_message": "java.lang.ArithmeticException: / by zero\r\n\tat testCases.HomePageTest.clickbook(HomePageTest.java:53)\r\n\tat ✽.But Don\u0027t click book button(Home.feature:12)\r\n",
+  "status": "failed"
+});
+formatter.embedding("image/jpeg", "embedded1.jpg");
+formatter.after({
+  "duration": 1113181940,
   "status": "passed"
 });
 formatter.scenario({
@@ -520,7 +532,7 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "Load the url as http://www.ntltaxi.com",
+  "name": "Load the url as URL",
   "matchedColumns": [
     1
   ],
@@ -586,20 +598,20 @@ formatter.match({
   "location": "HomePageTest.openbrowser(String)"
 });
 formatter.result({
-  "duration": 47680765,
+  "duration": 13797764,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "http://www.ntltaxi.com",
+      "val": "URL",
       "offset": 16
     }
   ],
   "location": "HomePageTest.loadurl(String)"
 });
 formatter.result({
-  "duration": 907579083,
+  "duration": 688579959,
   "status": "passed"
 });
 formatter.match({
@@ -612,7 +624,7 @@ formatter.match({
   "location": "HomePageTest.enterusername(String)"
 });
 formatter.result({
-  "duration": 177541369,
+  "duration": 141455311,
   "status": "passed"
 });
 formatter.match({
@@ -625,7 +637,7 @@ formatter.match({
   "location": "HomePageTest.entermobileno(String)"
 });
 formatter.result({
-  "duration": 155214789,
+  "duration": 146433806,
   "status": "passed"
 });
 formatter.match({
@@ -638,7 +650,7 @@ formatter.match({
   "location": "HomePageTest.enterpickup(String)"
 });
 formatter.result({
-  "duration": 132059833,
+  "duration": 172927293,
   "status": "passed"
 });
 formatter.match({
@@ -651,7 +663,7 @@ formatter.match({
   "location": "HomePageTest.enterdrop(String)"
 });
 formatter.result({
-  "duration": 195899560,
+  "duration": 211818390,
   "status": "passed"
 });
 formatter.match({
@@ -664,21 +676,27 @@ formatter.match({
   "location": "HomePageTest.selectcar(String)"
 });
 formatter.result({
-  "duration": 350185297,
+  "duration": 379345431,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageTest.clickbooklater()"
 });
 formatter.result({
-  "duration": 180014769,
+  "duration": 156117605,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageTest.clickbook()"
 });
 formatter.result({
-  "duration": 139271840,
+  "duration": 552243,
+  "error_message": "java.lang.ArithmeticException: / by zero\r\n\tat testCases.HomePageTest.clickbook(HomePageTest.java:53)\r\n\tat ✽.But Don\u0027t click book button(Home.feature:12)\r\n",
+  "status": "failed"
+});
+formatter.embedding("image/jpeg", "embedded2.jpg");
+formatter.after({
+  "duration": 1024144745,
   "status": "passed"
 });
 });

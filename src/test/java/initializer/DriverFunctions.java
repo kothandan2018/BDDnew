@@ -9,6 +9,6 @@ public static void selectDropDownByVisibleText(WebElement element, String car){
 	s.selectByVisibleText(car);
 }
 public static void loadUrl(String url){
-	wd.get(url);
+	wd.get(urlProp.getProperty(url));
 }
 }

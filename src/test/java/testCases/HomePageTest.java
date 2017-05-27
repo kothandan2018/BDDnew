@@ -2,6 +2,8 @@ package testCases;
 
 import java.io.IOException;
 
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.But;
 import cucumber.api.java.en.Given;
@@ -10,6 +12,7 @@ import cucumber.api.java.en.When;
 import initializer.DriverFunctions;
 import initializer.Initializer;
 import pageObjects.HomePageObject;
+import reportGenerator.ScreenshotGenerator;
 
 public class HomePageTest extends Initializer{
 	@Given ("^Open Browser as (.*)$")
@@ -26,6 +29,7 @@ public class HomePageTest extends Initializer{
 	}
 	@And ("^Enter the mobileno as (.*)$")
 	public static void entermobileno(String mobno){
+		
 		HomePageObject.enterMobileNo(mobno);
 	}
 	@And ("^Enter the pickup as (.*)$")
@@ -38,6 +42,7 @@ public class HomePageTest extends Initializer{
 	}
 	@Then ("^Select the cartype as (.*)$")
 	public static void selectcar(String car){
+		int i=1/0;
 		HomePageObject.selectCar(car);
 	}
 	@And ("^Click booklater$")
@@ -47,5 +52,11 @@ public class HomePageTest extends Initializer{
 	@But ("^Don't click book button$")
 	public static void clickbook(){
 		HomePageObject.clickBook();
+	}
+	@After
+	public void teardown(Scenario s) throws IOException{
+		if(s.isFailed()){
+			ScreenshotGenerator.generateScreenshot(s);
+		}
 	}
 }

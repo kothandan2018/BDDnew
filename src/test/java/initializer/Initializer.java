@@ -12,14 +12,20 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Initializer {
 
- static WebDriver wd=null;
+ public static WebDriver wd=null;
  public static FileInputStream locatorFis=null;
  public static Properties locatorProp=null;
+ public static FileInputStream urlFis=null;
+ public static Properties urlProp=null;
  public static void initialize(String browser) throws IOException{
 	
 	locatorFis=new FileInputStream(new File("D:\\SeleniumWorkSpace\\Batch38\\BDDNew\\src\\test\\resources\\Config\\locator.properties"));
 	locatorProp=new Properties();
 	locatorProp.load(locatorFis);
+	
+	urlFis=new FileInputStream(new File("D:\\SeleniumWorkSpace\\Batch38\\BDDNew\\src\\test\\resources\\Config\\environment.properties"));
+	urlProp=new Properties();
+	urlProp.load(urlFis);
 	
 	if(wd==null){
 	if(browser.equals("firefox")){

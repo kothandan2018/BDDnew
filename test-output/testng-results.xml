@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="113" started-at="2017-05-27T03:57:25Z" finished-at="2017-05-27T03:57:25Z">
+    <groups>
+    </groups>
+    <test name="testcaseRunner" duration-ms="15" started-at="2017-05-27T03:57:25Z" finished-at="2017-05-27T03:57:25Z">
+    </test> <!-- testcaseRunner -->
+    <test name="TestCAse" duration-ms="1" started-at="2017-05-27T03:57:25Z" finished-at="2017-05-27T03:57:25Z">
+    </test> <!-- TestCAse -->
+    <test name="PageObjects" duration-ms="1" started-at="2017-05-27T03:57:25Z" finished-at="2017-05-27T03:57:25Z">
+    </test> <!-- PageObjects -->
+    <test name="Initializer" duration-ms="1" started-at="2017-05-27T03:57:25Z" finished-at="2017-05-27T03:57:25Z">
+    </test> <!-- Initializer -->
+    <test name="DriverFunctions" duration-ms="2" started-at="2017-05-27T03:57:25Z" finished-at="2017-05-27T03:57:25Z">
+    </test> <!-- DriverFunctions -->
+    <test name="ScreenshotGenerator" duration-ms="2" started-at="2017-05-27T03:57:25Z" finished-at="2017-05-27T03:57:25Z">
+    </test> <!-- ScreenshotGenerator -->
+  </suite> <!-- Suite -->
+</testng-results>
